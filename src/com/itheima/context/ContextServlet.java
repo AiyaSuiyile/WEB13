@@ -13,7 +13,7 @@ public class ContextServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 
-		//获得ServletContext对象
+		//获得ServletContext对象232
 		ServletContext context = getServletContext();
 		//1、获得初始化参数
 		String initParameter = context.getInitParameter("driver");
